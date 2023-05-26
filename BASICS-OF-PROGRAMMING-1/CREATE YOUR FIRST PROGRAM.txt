@@ -1,0 +1,69 @@
+PROGRAMMING LANGUAGE -> C++
+
+HELLO WORLD.CPP
+
+#include<iostream>
+using namespace std;
+
+int main() {
+
+  cout << "Hello_World!" << endl;
+
+  return 0;
+
+}
+
+----------------------------------------
+#include is used to add header files in the code.
+<iostream> is the specific header file that enables the use of cout and cin in our code.
+using namespace std is used to avoid collisions and allows us to use cout directly without specifying the namespace.
+int is the return type for the main function.
+main() is the starting point of a C++ program and must be present in every code.
+The opening curly brace { marks the start of the scope of the main function.
+cout is used to print something on the screen.
+<< is the insertion operator used to send literals to the output device.
+"Hello, world!" is a string literal that will be printed.
+endl is used to add a new line after printing.
+return 0 is used to indicate that the program executed successfully.
+The closing curly brace } terminates the scope of the main function.
+--------------------------------------------
+
+TAKING INPUT IN C++
+
+#include<iostream>
+using namespace std;
+int main() {
+
+  int age; cin >> age;
+  cout << age << endl;
+
+  return 0;
+}
+
+-------------------------------------------------------------------------------------------
+The code includes the <iostream> header file, which provides input and output stream functionality.
+
+The using namespace std; line allows you to use names from the std namespace without explicitly qualifying them. In this case, it enables you to use cin and cout without writing std::cin and std::cout.
+
+The int main() function is the entry point of the program. It is where the execution of the program begins.
+
+Inside the main() function, there is a variable declaration int age; which declares an integer variable called age. This variable will be used to store the age of the person.
+
+The cin >> age; statement is used to read the input from the user and store it in the age variable. The >> operator is the input stream extraction operator, and it extracts the input from the user and assigns it to the variable.
+
+The cout << age << endl; statement prints the value of age to the standard output (console). The << operator is the output stream insertion operator, and it is used to insert the value of age into the output stream. The endl manipulator is used to insert a new line after printing the value of age, making the output appear on a new line.
+
+The return 0; statement indicates the end of the main() function and the successful termination of the program. The value 0 is returned to the operating system, indicating that the program executed without any errors.
+---------------------------------------------------------------------------
+int age = 25; // Declaration and initialization of 'age' with the value 25
+double weight = 68.5; // Declaration and initialization of 'weight' with the value 68.5
+char grade = 'A'; // Declaration and initialization of 'grade' with the character 'A'
+bool isStudent = true; // Declaration and initialization of 'isStudent' with the value 'true'
+--------------------------------------------------------------------------
+
+USE NAMESPACE TO AVOID NAMING COLLISIONS.
+VARIABLES
+DATA TYPES
+OPERATORS
+I HAVE OMMITED THEIR DESCRIPTIONS BECAUSE CHAT-GPT CAN HELP IN THIS.
+----------------------------------------------------------------------------

@@ -1,0 +1,9 @@
+START
+1.READ N
+2.I=2
+3.IF I<=N
+  A.PRINT I
+  B.I+=2
+  C.GOTO 3
+4.ELSE
+  END

@@ -1,0 +1,14 @@
+5! = 5 * 4 * 3 * 2 * 1 = 120
+
+N! = (N-1) * (N-2) * ------ * 1
+
+START
+1.READ N
+2.LET FACT = 1
+3.IF N>=1
+	FACT = FACT * N
+      N--
+	GOTO 3
+4.ELSE
+	PRINT FACT
+END

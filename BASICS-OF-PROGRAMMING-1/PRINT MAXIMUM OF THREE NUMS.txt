@@ -1,0 +1,12 @@
+START
+1.READ A,B,C
+2.IF A>B
+  A.IF A>C
+    PRINT A 
+  B.PRINT C
+3.ELSE
+  A.IF B>C
+    PRINT B
+  B.ELSE
+    PRINT C
+END

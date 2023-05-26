@@ -1,0 +1,180 @@
+FOR LOOP:
+
+//Printing Values Of i
+#include<iostream>
+using namespace std;
+
+int main() {
+  int n; cin >> n;
+  int i=0;
+  for(int i=0; i<n; i++) {
+  cout << i << " ";
+  
+  }
+  return 0;
+}
+----------------------------------------------------
+//Printing Table Of N
+#include<iostream>
+using namespace std;
+
+int main() {
+int n; cin >>n;
+for(int i=1; i<=10; i++) {
+cout << n << " X " << i << " = " << (n*i) << endl;
+}
+return 0;
+}
+--------------------------------------------------------
+SOLID SQUARE
+XXX
+XXX
+XXX
+
+#include<iostream>
+using namespace std;
+int main() {
+int n; cin >> n;
+for(int i=0; i<n; i++) {
+for(int j=0; j<n; j++) {
+cout << "X";
+}
+cout << endl;
+}
+return 0;
+}
+
+---------------------------------------
+SOLID RECTANGLE
+XXXX
+XXXX
+XXXX
+
+#include<iostream>
+using namespace std;
+int main() {
+int n,m; cin>>n>>m;
+for(int i=0;i<n;i++) {
+for(int j=0;j<m;j++) {
+cout<<"X";
+}
+cout<<endl;
+}
+return 0;
+}
+---------------------------------------
+HOLLOW RECTANGLE
+XXXX
+X  X
+XXXX
+#include<iostream>
+using namespace std;
+int main(){
+int n,m; cin>>n>>m;
+for(int i=0;i<n;i++){
+for(int j=0;j<m;j++){
+if(i==0||i==n-1||j==0||j==m-1){
+cout<<"X";
+}
+else{
+cout<<" ";
+}
+}
+cout<<endl;
+}
+return 0;
+}
+--------------------------------------
+HALF PYRAMID:
+#include<iostream>
+using namespace std;
+int main(){
+int n; cin>>n;
+for(int i=0;i<n;i++){
+for(int j=0;j<=i;j++){
+cout<<"X";
+}
+cout<<endl;
+}
+return 0;
+}
+------------------------------------
+INVERTED HALF-PYRAMID:
+#include<iostream>
+using namespace std;
+int main(){
+int n;cin>>n;
+for(int i=0;i<n;i++){
+for(int j=0;j<n-i;j++){
+cout<<"X";
+}
+cout<<endl;
+}
+return 0;
+}
+-------------------------------------
+NUMERIC HALF-PYRAMID:
+#include<iostream>
+using namespace std;
+int main(){
+int n; cin>>n;
+for(int i=0;i<n;i++){
+for(int j=0;j<=i;j++){
+cout<<i+1;
+}
+cout<<endl;
+}
+return 0;
+}
+------------------------------------
+INVERTED NUMERIC HALF-PYRAMID:
+#include<iostream>
+using namespace std;
+int main(){
+int n; cin>>n;
+for(int i=0;i<n;i++){
+for(int j=0;j<n-i;j++){
+cout<<i+1;
+}
+cout<<endl;
+}
+return 0;
+}
+---------------------------------
+INVERTED NUMERIC HALF-PYRAMID-COL-WISE:
+#include<iostream>
+using namespace std;
+int main(){
+int n; cin>>n;
+for(int i=0;i<n;i++){
+for(int j=0;j<n-i;j++){
+cout<<j+1;
+}
+cout<<endl;
+}
+return 0;
+}
+-----------------------------------
+FULL PYRAMID:
+    X
+   X X
+  X X X
+ X X X X
+X X X X X
+
+#include<iostream>
+using namespace std;
+int main(){
+int n;cin>>n;
+for(int i=0;i<n;i++){
+for(int j=0;j<n-i-1;j++){
+cout<<" ";
+}
+for(int j=0;j<=i;j++){
+cout<<"X ";
+}
+cout<<endl;
+}
+return 0;
+}
+----------------------------------

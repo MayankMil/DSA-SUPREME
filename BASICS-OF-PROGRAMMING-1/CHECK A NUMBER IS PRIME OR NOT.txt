@@ -1,0 +1,17 @@
+PRIME NUMBER IS WHICH HAVE ONLY 2 FACTORS.
+EX = 2 -> 1,2
+     3 -> 1,3
+     5 -> 1,5
+     7 -> 1,7
+
+START
+1.READ N
+2.LET I=2
+3.IF(I<N)
+	YES-->IF(N%I==0)
+		YES-->PRINT"NOT PRIME"
+		GOTO END
+            NO-->I++
+		GOTO 3
+4.ELSE PRINT"PRIME"
+END

@@ -1,0 +1,8 @@
+FORMULA:
+S.I = ((P*R*T) / 100)
+
+START
+1.READ P,R,T
+2.LET SI = ((P*R*T)/100)
+3.PRINT SI
+END
